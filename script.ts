@@ -52,7 +52,7 @@ interface Car {
 
 			if (!confirm(`The car ${name} remained ${time}. Do you want to terminate?`)) return
 
-			save(read().filter((car) => car.plate !== plate))
+			save(read().filter(car => car.plate !== plate))
 			render()
 		}
 

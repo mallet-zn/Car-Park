@@ -36,7 +36,7 @@
             const time = calcTime(new Date().getTime() - new Date(entry).getTime());
             if (!confirm(`The car ${name} remained ${time}. Do you want to terminate?`))
                 return;
-            save(read().filter((car) => car.plate !== plate));
+            save(read().filter(car => car.plate !== plate));
             render();
         }
         function render() {

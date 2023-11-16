@@ -1,0 +1,9 @@
+.container{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
